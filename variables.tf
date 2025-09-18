@@ -1,6 +1,6 @@
 variable "template_org" {
   description = "The name of the organization in Github that will contain the example app repo."
-  default     = "hashicorp-demo"
+  default     = "hashicorp-education"
 }
 
 variable "template_repo" {
@@ -10,7 +10,7 @@ variable "template_repo" {
 
 variable "destination_org" {
   description = "The name of the organization in Github that will contain the templated repo."
-  default     = "hashicorp-demo"
+  default     = "timcurless"
 }
 
 variable "gh_token" {
